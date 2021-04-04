@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1467760B2619A8F00018BAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467760A2619A8F00018BAD1 /* AppDelegate.swift */; };
+		1467760D2619A8F00018BAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467760C2619A8F00018BAD1 /* SceneDelegate.swift */; };
+		1467760F2619A8F00018BAD1 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467760E2619A8F00018BAD1 /* EventVC.swift */; };
+		146776122619A8F00018BAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146776102619A8F00018BAD1 /* Main.storyboard */; };
+		146776152619A8F00018BAD1 /* SnapMachineTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146776132619A8F00018BAD1 /* SnapMachineTask.xcdatamodeld */; };
+		146776172619A8F80018BAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146776162619A8F80018BAD1 /* Assets.xcassets */; };
+		1467761A2619A8F80018BAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146776182619A8F80018BAD1 /* LaunchScreen.storyboard */; };
+		146776272619B36F0018BAD1 /* ModalPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146776262619B36F0018BAD1 /* ModalPopupVC.swift */; };
+		1467762A2619B7580018BAD1 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146776282619B7580018BAD1 /* TitleTableViewCell.swift */; };
+		1467762B2619B7580018BAD1 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146776292619B7580018BAD1 /* TitleTableViewCell.xib */; };
+		1467762E2619BFE70018BAD1 /* DaysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467762C2619BFE70018BAD1 /* DaysTableViewCell.swift */; };
+		1467762F2619BFE70018BAD1 /* DaysTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1467762D2619BFE70018BAD1 /* DaysTableViewCell.xib */; };
+		146776312619C6AE0018BAD1 /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146776302619C6AE0018BAD1 /* EventDetailsVC.swift */; };
+		BDCF6C67C4A4AA42C15DC9E6 /* Pods_SnapMachineTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426476609D64925DA9A4677F /* Pods_SnapMachineTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		146776072619A8F00018BAD1 /* SnapMachineTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapMachineTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1467760A2619A8F00018BAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1467760C2619A8F00018BAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1467760E2619A8F00018BAD1 /* EventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
+		146776112619A8F00018BAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		146776142619A8F00018BAD1 /* SnapMachineTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapMachineTask.xcdatamodel; sourceTree = "<group>"; };
+		146776162619A8F80018BAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		146776192619A8F80018BAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1467761B2619A8F80018BAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146776262619B36F0018BAD1 /* ModalPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPopupVC.swift; sourceTree = "<group>"; };
+		146776282619B7580018BAD1 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		146776292619B7580018BAD1 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		1467762C2619BFE70018BAD1 /* DaysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysTableViewCell.swift; sourceTree = "<group>"; };
+		1467762D2619BFE70018BAD1 /* DaysTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaysTableViewCell.xib; sourceTree = "<group>"; };
+		146776302619C6AE0018BAD1 /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
+		426476609D64925DA9A4677F /* Pods_SnapMachineTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapMachineTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43406C3015CA66B84FE98FAB /* Pods-SnapMachineTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapMachineTask.debug.xcconfig"; path = "Target Support Files/Pods-SnapMachineTask/Pods-SnapMachineTask.debug.xcconfig"; sourceTree = "<group>"; };
+		B5067FB94BE538A7F05FE3BE /* Pods-SnapMachineTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapMachineTask.release.xcconfig"; path = "Target Support Files/Pods-SnapMachineTask/Pods-SnapMachineTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146776042619A8F00018BAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCF6C67C4A4AA42C15DC9E6 /* Pods_SnapMachineTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146775FE2619A8F00018BAD1 = {
+			isa = PBXGroup;
+			children = (
+				146776092619A8F00018BAD1 /* SnapMachineTask */,
+				146776082619A8F00018BAD1 /* Products */,
+				298789E463CBAD7521C8C73C /* Pods */,
+				579F902413B7C05EFA61B28E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		146776082619A8F00018BAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146776072619A8F00018BAD1 /* SnapMachineTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146776092619A8F00018BAD1 /* SnapMachineTask */ = {
+			isa = PBXGroup;
+			children = (
+				146776332619E1FE0018BAD1 /* Controller */,
+				146776322619E1E50018BAD1 /* Tableviewcells */,
+				146776252619B3540018BAD1 /* ModalPopup */,
+				1467760A2619A8F00018BAD1 /* AppDelegate.swift */,
+				1467760C2619A8F00018BAD1 /* SceneDelegate.swift */,
+				1467760E2619A8F00018BAD1 /* EventVC.swift */,
+				146776102619A8F00018BAD1 /* Main.storyboard */,
+				146776162619A8F80018BAD1 /* Assets.xcassets */,
+				146776182619A8F80018BAD1 /* LaunchScreen.storyboard */,
+				1467761B2619A8F80018BAD1 /* Info.plist */,
+				146776132619A8F00018BAD1 /* SnapMachineTask.xcdatamodeld */,
+			);
+			path = SnapMachineTask;
+			sourceTree = "<group>";
+		};
+		146776252619B3540018BAD1 /* ModalPopup */ = {
+			isa = PBXGroup;
+			children = (
+				146776262619B36F0018BAD1 /* ModalPopupVC.swift */,
+			);
+			path = ModalPopup;
+			sourceTree = "<group>";
+		};
+		146776322619E1E50018BAD1 /* Tableviewcells */ = {
+			isa = PBXGroup;
+			children = (
+				146776282619B7580018BAD1 /* TitleTableViewCell.swift */,
+				146776292619B7580018BAD1 /* TitleTableViewCell.xib */,
+				1467762C2619BFE70018BAD1 /* DaysTableViewCell.swift */,
+				1467762D2619BFE70018BAD1 /* DaysTableViewCell.xib */,
+			);
+			path = Tableviewcells;
+			sourceTree = "<group>";
+		};
+		146776332619E1FE0018BAD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				146776302619C6AE0018BAD1 /* EventDetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		298789E463CBAD7521C8C73C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43406C3015CA66B84FE98FAB /* Pods-SnapMachineTask.debug.xcconfig */,
+				B5067FB94BE538A7F05FE3BE /* Pods-SnapMachineTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		579F902413B7C05EFA61B28E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				426476609D64925DA9A4677F /* Pods_SnapMachineTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146776062619A8F00018BAD1 /* SnapMachineTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1467761E2619A8F80018BAD1 /* Build configuration list for PBXNativeTarget "SnapMachineTask" */;
+			buildPhases = (
+				DFCF947FEAE33186CDBC08D2 /* [CP] Check Pods Manifest.lock */,
+				146776032619A8F00018BAD1 /* Sources */,
+				146776042619A8F00018BAD1 /* Frameworks */,
+				146776052619A8F00018BAD1 /* Resources */,
+				F4843A9B937B0C59C3F9CF56 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapMachineTask;
+			productName = SnapMachineTask;
+			productReference = 146776072619A8F00018BAD1 /* SnapMachineTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146775FF2619A8F00018BAD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Rakesh;
+				TargetAttributes = {
+					146776062619A8F00018BAD1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 146776022619A8F00018BAD1 /* Build configuration list for PBXProject "SnapMachineTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146775FE2619A8F00018BAD1;
+			productRefGroup = 146776082619A8F00018BAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146776062619A8F00018BAD1 /* SnapMachineTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146776052619A8F00018BAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1467762B2619B7580018BAD1 /* TitleTableViewCell.xib in Resources */,
+				1467761A2619A8F80018BAD1 /* LaunchScreen.storyboard in Resources */,
+				146776172619A8F80018BAD1 /* Assets.xcassets in Resources */,
+				146776122619A8F00018BAD1 /* Main.storyboard in Resources */,
+				1467762F2619BFE70018BAD1 /* DaysTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFCF947FEAE33186CDBC08D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapMachineTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4843A9B937B0C59C3F9CF56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapMachineTask/Pods-SnapMachineTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapMachineTask/Pods-SnapMachineTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapMachineTask/Pods-SnapMachineTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146776032619A8F00018BAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1467762A2619B7580018BAD1 /* TitleTableViewCell.swift in Sources */,
+				1467762E2619BFE70018BAD1 /* DaysTableViewCell.swift in Sources */,
+				146776272619B36F0018BAD1 /* ModalPopupVC.swift in Sources */,
+				1467760F2619A8F00018BAD1 /* EventVC.swift in Sources */,
+				1467760B2619A8F00018BAD1 /* AppDelegate.swift in Sources */,
+				146776312619C6AE0018BAD1 /* EventDetailsVC.swift in Sources */,
+				146776152619A8F00018BAD1 /* SnapMachineTask.xcdatamodeld in Sources */,
+				1467760D2619A8F00018BAD1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		146776102619A8F00018BAD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146776112619A8F00018BAD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		146776182619A8F80018BAD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146776192619A8F80018BAD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1467761C2619A8F80018BAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1467761D2619A8F80018BAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1467761F2619A8F80018BAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43406C3015CA66B84FE98FAB /* Pods-SnapMachineTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6DB8ZS22;
+				INFOPLIST_FILE = SnapMachineTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SnapMachineTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		146776202619A8F80018BAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5067FB94BE538A7F05FE3BE /* Pods-SnapMachineTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6DB8ZS22;
+				INFOPLIST_FILE = SnapMachineTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SnapMachineTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146776022619A8F00018BAD1 /* Build configuration list for PBXProject "SnapMachineTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1467761C2619A8F80018BAD1 /* Debug */,
+				1467761D2619A8F80018BAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1467761E2619A8F80018BAD1 /* Build configuration list for PBXNativeTarget "SnapMachineTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1467761F2619A8F80018BAD1 /* Debug */,
+				146776202619A8F80018BAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		146776132619A8F00018BAD1 /* SnapMachineTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				146776142619A8F00018BAD1 /* SnapMachineTask.xcdatamodel */,
+			);
+			currentVersion = 146776142619A8F00018BAD1 /* SnapMachineTask.xcdatamodel */;
+			path = SnapMachineTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 146775FF2619A8F00018BAD1 /* Project object */;
+}
